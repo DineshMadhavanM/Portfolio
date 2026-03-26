@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: nexstack-portfolio
+    env: static
+    buildCommand: null
+    publishDir: .
