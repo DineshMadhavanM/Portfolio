@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexStack | Dinesh Madhavan - Full-Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Dinesh Madhavan, a full-stack developer building modern websites and scalable web apps for businesses.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="img/NexStack.png" alt="NexStack Logo">
+                <span class="logo-text">NexStack</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#tech-stack">Stack</a>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
+            </div>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="animated-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-text-wrapper">
+                <h2 class="hero-badge">Available for Work</h2>
+                <h1 class="hero-title reveal-text">
+                    Hi, I'm <span class="gradient-text">Dinesh Madhavan</span>
+                </h1>
+                <p class="hero-subtitle reveal-text">
+                    Full-Stack Developer building modern websites and scalable web apps for businesses.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-tech-container">
+                    <!-- Tech icons will be animated via CSS/JS -->
+                    <div class="tech-icon floating-1"><i class="fab fa-react"></i></div>
+                    <div class="tech-icon floating-2"><i class="fab fa-node-js"></i></div>
+                    <div class="tech-icon floating-3"><i class="fab fa-js"></i></div>
+                    <div class="tech-icon floating-4"><i class="fas fa-database"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-arrow">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">The Mind Behind the Code</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card glassmorphism reveal">
+                    <div class="profile-img-wrapper">
+                        <img src="img/dinesh img.jpeg" alt="Dinesh Madhavan" id="profile-img">
+                    </div>
+                    <div class="about-details">
+                        <p>
+                            Dinesh Madhavan is a freelance full-stack developer specializing in building modern web
+                            applications, booking systems, e-commerce platforms, and scalable backend systems.
+                        </p>
+                        <div class="focus-areas">
+                            <div class="focus-item"><i class="fas fa-bolt"></i> Performance</div>
+                            <div class="focus-item"><i class="fas fa-up-right-and-down-left-from-center"></i>
+                                Scalability</div>
+                            <div class="focus-item"><i class="fas fa-user-check"></i> User Experience</div>
+                            <div class="focus-item"><i class="fas fa-briefcase"></i> Business Results</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Professional Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Website Development</h3>
+                    <p>High-performance websites tailored to your brand identity.</p>
+                </div>
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Custom Web Applications</h3>
+                    <p>Scalable, robust applications built with modern frameworks.</p>
+                </div>
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-shopping-cart"></i></div>
+                    <h3>E-Commerce Development</h3>
+                    <p>Feature-your online stores to drive business growth.</p>
+                </div>
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <h3>Booking Platforms</h3>
+                    <p>Efficient reservation systems for hotels, sports, and more.</p>
+                </div>
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Website Maintenance & Optimization</h3>
+                    <p>Ensuring your digital presence stays fast and secure.</p>
+                </div>
+                <div class="service-card glassmorphism reveal">
+                    <div class="service-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h3>Billing Management Services</h3>
+                    <p>Automated and efficient billing solutions for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Showcase</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Bakery E-Commerce -->
+                <article class="project-card glassmorphism reveal">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <a href="https://nineteen06-frontend.onrender.com" target="_blank" class="btn btn-sm">Live
+                                Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                        <img src="img/bakery.png" alt="Bakery Store Preview">
+                    </div>
+                    <div class="project-info">
+                        <h3>Bakery E-Commerce Store</h3>
+                        <p>Modern platform with product browsing, shopping cart, and ordering system.</p>
+                        <div class="tech-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Resort Booking -->
+                <article class="project-card glassmorphism reveal">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <a href="https://hotel-booking-frontend-u87v.onrender.com" target="_blank"
+                                class="btn btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                        <img src="img/resort.png" alt="Resort Booking Preview">
+                    </div>
+                    <div class="project-info">
+                        <h3>Resort Booking Management</h3>
+                        <p>Availability checks and online reservations for premium resorts.</p>
+                        <div class="tech-tags">
+                            <span>TypeScript</span><span>Express</span><span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sports Booking -->
+                <article class="project-card glassmorphism reveal">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <a href="https://updated-playkers.onrender.com" target="_blank" class="btn btn-sm">Live
+                                Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline">GitHub</a>
+                        </div>
+                        <img src="img/sports.png" alt="Sports Booking Preview">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sports Booking & Scorer</h3>
+                        <p>Ground booking and cricket scorer management platform.</p>
+                        <div class="tech-tags">
+                            <span>Node.js</span><span>Socket.io</span><span>Redis</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tools</span>
+                <h2 class="section-title">Core Technology Stack</h2>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-group reveal">
+                    <h4>Frontend</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item" title="HTML5"><i class="fab fa-html5"></i></div>
+                        <div class="tech-item" title="CSS3"><i class="fab fa-css3-alt"></i></div>
+                        <div class="tech-item" title="JavaScript"><i class="fab fa-js"></i></div>
+                        <div class="tech-item" title="TypeScript"><i class="fas fa-code"></i></div>
+                    </div>
+                </div>
+                <div class="tech-group reveal">
+                    <h4>Backend</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item" title="Node.js"><i class="fab fa-node-js"></i></div>
+                        <div class="tech-item" title="Express.js"><i class="fas fa-server"></i></div>
+                    </div>
+                </div>
+                <div class="tech-group reveal">
+                    <h4>Database</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item" title="MongoDB"><i class="fas fa-leaf"></i></div>
+                    </div>
+                </div>
+                <div class="tech-group reveal">
+                    <h4>DevTools</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item" title="Git"><i class="fab fa-git-alt"></i></div>
+                        <div class="tech-item" title="GitHub"><i class="fab fa-github"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Section -->
+    <section id="workflow" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Process</span>
+                <h2 class="section-title">How I Build Solutions</h2>
+            </div>
+            <div class="workflow-timeline reveal">
+                <div class="workflow-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h4>Requirement Discussion</h4>
+                        <p>Defining goals and project scope.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h4>UI/UX Design</h4>
+                        <p>Crafting intuitive and premium interfaces.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h4>Development</h4>
+                        <p>Writing clean, scalable, and efficient code.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h4>Testing</h4>
+                        <p>Ensuring quality and performance.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h4>Deployment</h4>
+                        <p>Launching to the production environment.</p>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h4>Maintenance</h4>
+                        <p>Ongoing support and optimizations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Start Your Next Project</h2>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card glassmorphism reveal">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>madhavandineshm17@gmail.com</p>
+                    </div>
+                    <div class="contact-card glassmorphism reveal">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>+91 6374561199</p>
+                    </div>
+                    <div class="contact-card glassmorphism reveal">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>github.com/DineshMadhavanM</p>
+                    </div>
+                </div>
+                <form id="contact-form" class="glassmorphism reveal">
+                    <div class="form-group">
+                        <label for="name">Client Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+91 12345 67890">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Service Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="web-dev">Website Development</option>
+                            <option value="app-dev">Custom Web App</option>
+                            <option value="ecom">E-Commerce Store</option>
+                            <option value="booking">Booking Platform</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required
+                            placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="final-cta" class="section">
+        <div class="container glassmorphism cta-inner reveal">
+            <h2>Let's Build Your Next Digital Product</h2>
+            <p>Ready to transform your business requirements into a world-class digital experience?</p>
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/NexStack.png" alt="NexStack Logo">
+                    <span>NexStack</span>
+                </div>
+                <p>&copy; 2026 Dinesh Madhavan | NexStack. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/DineshMadhavanM"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/916374561199"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/916374561199" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
