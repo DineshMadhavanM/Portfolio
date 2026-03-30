@@ -3,3 +3,4 @@ services:
     name: nexstack-portfolio
     env: static
     staticPublishPath: .
+    buildCommand: ""
